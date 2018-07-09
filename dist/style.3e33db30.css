@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#app {
+  width: 800px;
+  margin: 0 auto;
+}
+.top {
+  width: 200px;
+  background: #ccc;
+  text-align: center;
+  display: flex;
+  top: 20px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.block {
+  margin: 0 auto;
+}
+.cube {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  float: left;
+}
+.cube.active {
+  background: #555;
+}
+.area {
+  display: flex;
+}
